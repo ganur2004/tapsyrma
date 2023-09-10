@@ -1,13 +1,13 @@
 import telebot
 import sqlite3
 
-token = '6233769171:AAHhzew8x6k2SgdbGpfKrqvZXQhcc7WslKg'
+token = '#your token'
 bot = telebot.TeleBot(token)
-chat_id = '-1001904061097'
+chat_id = '#chat id'
 info = {'user_id': 0, 'user_name': '', 'mention': '', 'text': '', 'price': '', 'coment': '-', 'status': '', 'photo_id': '-', 'translations': {}}
 translat = {}
-YOUR_BOT_USERNAME = 'NnPyBot'
-YOUR_CHANNEL_USERNAME = 'tapsyrmachannel'
+YOUR_BOT_USERNAME = '#bot username'
+YOUR_CHANNEL_USERNAME = '#channel username'
 
 conn = sqlite3.connect('db/database.sqlite', check_same_thread=False)
 cursor = conn.cursor()
